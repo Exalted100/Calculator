@@ -1,0 +1,92 @@
+body {
+    background-image: url(Calculator\ Blur.jpg);
+}
+
+@media (min-width: 700px) {
+    #container {
+    width: 30%;
+    }
+}
+
+@media (max-width: 699px) {
+    #container {
+        width: 90%;
+    }
+}
+
+#container {
+    margin: 70px auto;
+    border: 1px solid #bbbbbb;
+    height: 500px;
+    background-color: #BFD7EA;
+    border-radius: 20px;
+}
+
+header {
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #91AEC1;
+    margin-bottom: 20px;
+    font-size: 22px;
+    border-radius: 20px;
+}
+
+input {
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+#input {
+    border-bottom: none;
+}
+
+#output {
+    border-top: none;
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+#allButtons {
+    width: 80%;
+    margin: 30px auto;
+}
+
+#topButtons {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.topButtons {
+    width: 50px;
+    height: 30px;
+}
+
+.otherRows {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.otherButtons {
+    width: 30%;
+    height: 30px;
+}
+
+button {
+    background-color: #508CA4;
+    color: black;
+    border-radius: 10px;
+    border-color: #508CA4;
+    box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+}
+
+button:hover {
+    box-shadow: 0 0 0 rgba(0,0,0,0.15);
+    background-color: #0A8754;
+}
